@@ -1,3 +1,40 @@
+@font-face {
+  font-family: "Urbanist-Variable";
+  src: url("../font/Urbanist-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Urbanist-Italic-Variable";
+  src: url("../font/Urbanist-Italic-VariableFont_wght.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Urbanist-Variable";
+}
 
+header {
+  width: 100%;
+  padding: 16px 100px;
+}
+
+ul {
+  list-style: none;
+  display: inline-flex;
+}
+ul a {
+  display: inline-block;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  width: 100%;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
 
 /*# sourceMappingURL=style.css.map */
