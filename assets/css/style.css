@@ -56,7 +56,7 @@ header nav ul a {
   min-height: 80vh;
 }
 .hero h1 {
-  margin: 11% 45% 0% 23%;
+  margin: 20% 55% 0% 15%;
   color: black;
   font-size: 8em;
 }
@@ -100,6 +100,10 @@ button {
   margin-bottom: 7px;
 }
 
+#lonebutton {
+  margin-top: 3%;
+}
+
 #btnmargin {
   margin-top: 10px;
   margin-bottom: 7px;
@@ -110,6 +114,16 @@ button {
   height: 75vh;
   text-align: center;
 }
+.servicearticle h2 {
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+}
+.servicearticle p {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
 
 /* Styling für die Servicekarten */
 .servicecards {
@@ -117,6 +131,7 @@ button {
   flex-wrap: wrap;
   align-content: stretch;
   justify-content: center;
+  margin-top: 65px;
   height: 35vh;
   gap: 20px;
 }
@@ -141,12 +156,27 @@ button {
 }
 
 /* Styling für die Produktkarten */
+.qual h2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.qual2 {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+
 .productcards {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 50px;
-  margin-top: 20px;
+  margin-top: 100px;
 }
 .productcards .productcards {
   background-color: #cb8d11;
